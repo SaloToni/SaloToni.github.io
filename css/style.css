@@ -1,6 +1,6 @@
 /*taustaväri on harmaa*/
 body {
-  background-color: green;
+  background-color: pink;
 }
 /*koska tausta on harmaa niin otsikot ovat valkoisia*/
 h1 {
@@ -10,6 +10,6 @@ h1 {
 /*fonttikoko on 25 jotta sitä on helpompi lukea*/
 p {
   font-family: verdana;
-  font-size: 50px;
+  font-size: 100px;
 }
 /*Tähän loppuu tyylimuokkaus*/
