@@ -8,6 +8,7 @@ h1 {
   text-align: center;
   font-size: 100px;
   font-family: comic sans;
+  border-style: outset;
 }
 /*fonttikoko on 25 jotta sitä on helpompi lukea*/
 p {
