@@ -14,4 +14,8 @@ p {
   font-family: verdana;
   font-size: 50px;
 }
+table {
+  font-size: 50px;
+  font-family: verdana
+}
 /*Tähän loppuu tyylimuokkaus*/
