@@ -1,3 +1,15 @@
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: arial;
+}
+
+
+
 .links {
     color: white;
     text-align: center;
