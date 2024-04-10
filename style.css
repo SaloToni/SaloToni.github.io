@@ -10,8 +10,9 @@ h1 {
 
 
 
-.links ul li {
+.links ul li a {
     color: white;
     text-align: center;
     font-family: arial;
+    font-size: 150%;
 }
