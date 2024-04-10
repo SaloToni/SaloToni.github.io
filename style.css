@@ -8,7 +8,9 @@ h1 {
     font-family: arial;
 }
 
-
+.links ul{
+    list-style: none;
+}
 
 .links ul li a {
     color: white;
