@@ -10,6 +10,7 @@ h1 {
 
 .links ul{
     list-style: none;
+    text-align: center;
 }
 
 .links ul li a {
