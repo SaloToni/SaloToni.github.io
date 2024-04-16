@@ -40,13 +40,14 @@
         if(letter !=='') {
             classes = 'letter js-letter'
         }
-        html = html + '<span class='${classes}'>${letter}</span>'
+        html = html + ´<span class='${classes}'>${letter}</span>´
     })
 
     h1.innerHTML = html
     const jsletters = document.querySelectorAll(".js-letter")
     jsLetters.forEach(node => {
         node.addEventListener("mouseover", function(event) {
+            console.log(this.innerText)
             this.classList.add("active")
         })
         node.addEventListener("mouseout", function(event) {
