@@ -45,8 +45,8 @@
     })
 
     h1.innerHTML = html
-    const jsletters = document.querySelectorAll(".js-letter")
-jsletters.forEach(node => {
+    const jsLetters = document.querySelectorAll(".js-letter")
+    jsLetters.forEach(node => {
     node.addEventListener("mouseover", function(event) {
         console.log(this.innerText)
         this.classList.add("active")
