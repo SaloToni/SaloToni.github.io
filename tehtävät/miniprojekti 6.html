@@ -46,15 +46,16 @@
 
     h1.innerHTML = html
     const jsletters = document.querySelectorAll(".js-letter")
-    jsLetters.forEach(node => {
-        node.addEventListener("mouseover", function(event) {
-            console.log(this.innerText)
-            this.classList.add("active")
-        })
-        node.addEventListener("mouseout", function(event) {
-            this.classList.remove("active")
-        })
+jsletters.forEach(node => {
+    node.addEventListener("mouseover", function(event) {
+        console.log(this.innerText)
+        this.classList.add("active")
     })
+    node.addEventListener("mouseout", function(event) {
+        this.classList.remove("active")
+    })
+})
+
 </script>
 
 
