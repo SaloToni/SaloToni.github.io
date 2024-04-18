@@ -1,0 +1,68 @@
+Moro Moro
+
+<script type="text/javascript">
+    console.log('Kiva nähdä')
+</script>
+
+var favColor ='blue';
+var FavColors =['blue', 'red','green'];
+var numOfFavColors ='3';
+var hasGotFavColors= true;
+var richObjects = {
+    firstname: 'Rich',
+    lastname: 'Armstrong',
+    favColors: ['blue', 'red', 'green'],
+    yearsAlive: 103,
+    isMale: true
+};
+
+
+var fullname = function (firstname, secondname) {
+    return firstname + ' '+ secondname;
+}
+
+var area = function (width, height) {
+    return width * height;
+}
+
+var whatIsMyFavColor = function () {
+    return 'blue';
+}
+
+var whatIsMyFavColor = function (){
+    console.log("do Something!");
+}
+
+if (true) {
+    alert('male');
+};
+
+var number1 = 10;
+var number2 = 100;
+
+if (number1 > number2) {
+    alert('true!');
+} else {
+    alert('false!');
+}
+
+var name1 = 'Rich';
+var name2 = 'Bob';
+
+if (name1 == 'Rich') {
+    alert('true 1');
+} else if (name2 == 'Rich') {
+    alert('true 2');
+} else {
+    alert('false!');
+}
+
+// && molempien ehtojen täytyy toteutua.  || vain toisen tarvitsee toteutua
+
+//yhden rivin js kommentti
+/*
+Monen
+rivin
+js
+kommentti
+*/
