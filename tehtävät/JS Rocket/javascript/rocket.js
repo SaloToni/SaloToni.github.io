@@ -13,6 +13,18 @@ var changeState = function (state) {
             if (countdownNumber <= 0) {
                 changeState(3);
             };
-        }, 1000);   
-    };
+        }, 1000); 
+      }  else if (state ==3)  {
+var success = setTimeout(function ()
+{
+    var randomNumber = Math.round(Math.round()*10);
+
+    if (randomNumber > 5) {
+        changeState(4);
+
+    } else {
+        changeState(5);
+    }
+},2000);
+    }
 }
