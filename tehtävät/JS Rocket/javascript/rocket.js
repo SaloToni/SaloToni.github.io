@@ -12,12 +12,12 @@ var changeState = function (state) {
             countdownNumber = countdownNumber-1;
             if (countdownNumber <= 0) {
                 changeState(3);
-            };
-        }, 1000); 
-      }  else if (state ==3)  {
-var success = setTimeout(function ()
-{
-    var randomNumber = Math.round(Math.round()*10);
+            }
+        }, 500); 
+      }  else if (state == 3)  {
+        var success = setTimeout(function()
+    {
+    var randomNumber = Math.round(Math.random() * 10);
 
     if (randomNumber > 5) {
         changeState(4);

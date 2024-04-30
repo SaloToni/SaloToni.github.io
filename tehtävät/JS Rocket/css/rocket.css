@@ -35,9 +35,6 @@
     transition: bottom 2000ms;
 }
 
-.rocket.flying{
-    bottom: 1000px;
-}
 
 body.body-state3 .rocket{
     bottom: 1000px;
