@@ -47,11 +47,11 @@
     display: none;
 }
 
-body.state1 .state1{display: block;}
-body.state2 .state2{display: block;}
-body.state3 .state3{display: block;}
-body.state4 .state4{display: block;}
-body.state5 .state5{display: block;}
+body.body-state1 .state1{display: block;}
+body.body-state2 .state2{display: block;}
+body.body-state3 .state3{display: block;}
+body.body-state4 .state4{display: block;}
+body.body-state5 .state5{display: block;}
 
 
 a{
