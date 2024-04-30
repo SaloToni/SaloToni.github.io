@@ -18,7 +18,7 @@ var changeState = function (state) {
         var success = setTimeout(function()
     {
     var randomNumber = Math.round(Math.random() * 10);
-
+console.log('randomNumber:', randomNumber)
     if (randomNumber > 5) {
         changeState(4);
 
@@ -28,5 +28,3 @@ var changeState = function (state) {
 },2000);
     }
 }
-
-console.log('toimii')
