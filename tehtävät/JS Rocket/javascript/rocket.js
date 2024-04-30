@@ -5,6 +5,7 @@ var changeState = function (state) {
     document.body.className = 'body-state'+ state;
 
     clearInterval(timer);
+    countdownNumber = 10;
 
     if (state == 2) {
         timer = setInterval(function () {
@@ -13,7 +14,7 @@ var changeState = function (state) {
             if (countdownNumber <= 0) {
                 changeState(3);
             }
-        }, 500); 
+        }, 250); 
       }  else if (state == 3)  {
         var success = setTimeout(function()
     {
