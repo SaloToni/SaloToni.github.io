@@ -28,3 +28,5 @@ var changeState = function (state) {
 },2000);
     }
 }
+
+console.log('toimii')
