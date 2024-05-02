@@ -1,3 +1,5 @@
+//Ajastimen koodi
+
 var timer= null;
 var countdownNumber = 10;
 
@@ -19,6 +21,7 @@ var changeState = function (state) {
       }  else if (state == 3)  {
         var success = setTimeout(function()
     {
+        //Määrittelee raketin lennon onnistumisen todennäköisyyden
     var randomNumber = Math.round(Math.random() * 10);
 console.log('randomNumber:', randomNumber)
     if (randomNumber > 5) {
