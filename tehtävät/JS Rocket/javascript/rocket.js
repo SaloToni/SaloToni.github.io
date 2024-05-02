@@ -23,6 +23,8 @@ var changeState = function (state) {
             if (countdownNumber == 3) {
                 //can't wait
                 document.getElementById('cant-wait').className = 'cant-wait show';
+            else{
+                document.getElementById('cant-wait').className = 'cant-wait';
             };
             */
             if (countdownNumber <= 0) {
