@@ -13,7 +13,8 @@ body{
 }
 
 .right{
-    background-color: aliceblue;
+    background-color: cyan;
+    background-repeat: no-repeat;
     position: fixed;
     width: 50%;
     height: 100%;
@@ -29,38 +30,6 @@ body{
     width: 100%;
     height: 32px;
 }
-
-
-/*
-
-.nervous.show{
-    display: block;
-}
-
-.cant-wait.show{
-    display: block;
-}
-
-.nervous{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    background: url('../img/nervous.png') no repeat 0 0;
-    width: 223px;
-    height: 100px;
-    margin-left: -180px;
-}
-
-.cant-wait{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    background: url('../img/cant-wait.png') no repeat 0 0;
-    width: 206px;
-    height: 65px;
-}
-
-*/
 
 .rocket{
     position: absolute;
